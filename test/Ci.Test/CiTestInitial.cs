@@ -8,8 +8,8 @@ using NUnit.Framework;
 namespace Ci.Test
 {
     [TestFixture]
-    public class DomainTest
-    { 
+    public class CiTestInitial
+    {
         [Test]
         public void ShouldInstanciate()
         {

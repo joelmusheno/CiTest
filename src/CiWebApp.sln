@@ -7,7 +7,12 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CiWebApp", "CiWebApp\CiWebA
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CiDomain", "CiDomain\CiDomain.xproj", "{51455B8D-1EC9-4022-9FF5-05F10EB74765}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ci.Test", "Ci.Test\Ci.Test.xproj", "{4733A1B3-32B1-4FC3-9E53-309C9C9E161F}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Ci.Test", "..\test\Ci.Test\Ci.Test.xproj", "{0A585314-D5DC-4BAB-B41C-2886B744F21A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0766F8F2-76CD-4075-9543-70A4B13E6077}"
+	ProjectSection(SolutionItems) = preProject
+		..\test\global.json = ..\test\global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +28,10 @@ Global
 		{51455B8D-1EC9-4022-9FF5-05F10EB74765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51455B8D-1EC9-4022-9FF5-05F10EB74765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51455B8D-1EC9-4022-9FF5-05F10EB74765}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4733A1B3-32B1-4FC3-9E53-309C9C9E161F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4733A1B3-32B1-4FC3-9E53-309C9C9E161F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4733A1B3-32B1-4FC3-9E53-309C9C9E161F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4733A1B3-32B1-4FC3-9E53-309C9C9E161F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A585314-D5DC-4BAB-B41C-2886B744F21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A585314-D5DC-4BAB-B41C-2886B744F21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A585314-D5DC-4BAB-B41C-2886B744F21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A585314-D5DC-4BAB-B41C-2886B744F21A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
