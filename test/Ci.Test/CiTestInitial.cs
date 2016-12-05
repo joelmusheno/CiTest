@@ -20,7 +20,7 @@ namespace Ci.Test
         [Test]
         public void ShouldBeTrue()
         {
-            Assert.IsTrue(true);
+            Assert.IsTrue(false);
         }
     }
 }
