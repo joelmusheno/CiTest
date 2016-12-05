@@ -16,5 +16,11 @@ namespace Ci.Test
             var dl = new DomainLogic();
             Assert.IsNotNull(dl);
         }
+
+        [Test]
+        public void ShouldBeTrue()
+        {
+            Assert.IsTrue(false);
+        }
     }
 }
