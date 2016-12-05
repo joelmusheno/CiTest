@@ -4,6 +4,7 @@
   "dependencies": {
     "NUnit": "3.5.0",
     "dotnet-test-nunit": "3.4.0-beta-3",
+    "Core.Common.Models.Aura": "1.0.4",
     "CiDomain": "1.0.0-*"
   },
 
